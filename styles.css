@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
+:root
+{
+    --primary-color:#10b981;
+    --dark-grey:#64748b;
+    --off-white:#e2e8f0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+}
+/* containers */
+.container
+{
+  padding-left: 1rem;
+  padding-right: 1rem;  
+}
+
+.container-center
+{
+    max-width: 600px;
+    margin: auto;
+}
+/* links */
+.link
+{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary
+{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary
+{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color)
+
+}
+/* lists */
+.list-non-bullet
+{
+    list-style: none;
+}
+.list-inline, .list-item-inline
+{
+    display: inline;
+    padding: 0;
+}
+.list-no-padding-inline-start
+{
+    padding-inline-start:0px;
+}
+/* navigation */
+.navigation
+{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+.navigation .link
+{
+    color:white;
+}
+.navigation .nav-pills
+{
+    text-align: left;
+}
+.navigation .nav-brand
+{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .link-active
+{
+    font-weight: bolder;
+}
+/* header */
+.hero
+{
+    padding-top: 2rem;
+   margin: auto;
+}
+.hero-image
+{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+.hero-heading
+{
+    font-size: 2rem;
+    color: var(--dark-grey);
+    padding-top: 1rem;
+    text-align: center;
+}
+.hero .hero-heading .hero-heading-inverted
+{
+    color: var(--primary-color);
+}
+/* sections */
+.section
+{
+    padding: 2rem;
+}
+.section h1
+{
+    text-align:center;
+    
+}
+.of{
+    background-color: var(--off-white);
+}
+.section-heading-inverted {
+    color: var(--primary-color);
+}
+.section p
+{
+    line-height: 1.5rem;
+    text-align: justify;
+}
+/* footer */
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.hr-links
+{
+    margin-top: 1rem;
+}
+.footer .footer-heading
+{
+    font-weight: bold;
+    font-size: large;
+}
+.heading-center
+{
+    text-align: center;
+}
+
