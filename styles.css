@@ -79,6 +79,7 @@ body{
 .navigation .link-active
 {
     font-weight: bolder;
+    font-size: 1.1rem;
 }
 /* header */
 .hero
@@ -152,5 +153,9 @@ color: white;
 .heading-center
 {
     text-align: center;
+}
+.angleContainer
+{
+    display: block;
 }
 
