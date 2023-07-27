@@ -154,8 +154,40 @@ color: white;
 {
     text-align: center;
 }
-.angleContainer
+.mainContent
+{
+    margin: 1rem auto;
+    display:block;
+    max-width: 600px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+}
+.mainContent label, input
 {
     display: block;
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem 0;
+    
 }
+.mainContent input
+{
+    text-align: center;
+    font-size: large;
+}
+
+#isTriangleBtn
+{
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--off-white);
+}
+
+
+
 
