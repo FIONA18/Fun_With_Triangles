@@ -177,7 +177,7 @@ color: white;
     font-size: large;
 }
 
-#isTriangleBtn
+.mainContent #isTriangleBtn
 {
     display: block;
     margin: 1rem auto;
@@ -186,6 +186,17 @@ color: white;
     background-color: var(--primary-color);
     color: white;
     border-color: var(--off-white);
+}
+.mainContent #output
+{
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-weight: 900;
+    font-size: larger;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
 }
 
 
