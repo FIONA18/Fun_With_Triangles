@@ -198,6 +198,44 @@ color: white;
     color: white;
     border-radius: 0.5rem;
 }
+.quizContainer
+{
+    width: 80%;
+    margin:1rem  auto;
+
+}
+.quizContainer label{
+    display: inline;
+    width: fit-content;
+}
+.quizContainer label input{
+    display: inline;
+    width: fit-content;
+}
+.quizContainer label
+{
+    padding-left: 1rem;
+}
+#submit
+{
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--off-white);
+}
+
+
+
+
+
+
+
+
+.
+
 
 
 
