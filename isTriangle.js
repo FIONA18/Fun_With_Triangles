@@ -7,10 +7,11 @@ function CalculateSum(angle1, angle2, angle3)
     return angle1+angle2+angle3;
 }
 
-function ValidateTriangle(sum)
+function ValidateTriangle(sum, angle1, angle2, angle3)
 {
     let result = false;
-    if(sum===180)
+    console.log(sum, angle1, angle2, angle3);
+    if (sum===180 && angle1>0 && angle2>0 && angle3>0)
     {
         result =true;
     }
@@ -29,12 +30,15 @@ function ValidateData()
 
 btnSubmit.addEventListener("click", function OnSubmitClicked()
 {
-    if(ValidateData())
+    if (ValidateData())
     {
-        console.log(angles[0].value, angles[1].value, angles[2].value)
-        let sum = CalculateSum(Number(angles[0].value), Number(angles[1].value), Number(angles[2].value))
-        if(ValidateTriangle(sum))
+        const angle1 = Number(angles[0].value);
+        const angle2 = Number(angles[1].value);
+        const angle3 = Number(angles[2].value);
+        let sum = CalculateSum(angle1, angle2, angle3)
+        if(ValidateTriangle(sum, angle1, angle2, angle3))
         {
+            
             output.innerHTML = "YES"
         }
         else
