@@ -154,7 +154,7 @@ color: white;
 {
     text-align: center;
 }
-.mainContent
+.mainContent, .quizMainContent
 {
     margin: 1rem auto;
     display:block;
@@ -187,7 +187,7 @@ color: white;
     color: white;
     border-color: var(--off-white);
 }
-.mainContent #output
+#output
 {
     text-align: center;
     margin: 1rem auto;
@@ -200,7 +200,7 @@ color: white;
 }
 .quizContainer
 {
-    width: 80%;
+    width: 100%;
     margin:1rem  auto;
 
 }
