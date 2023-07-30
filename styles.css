@@ -154,7 +154,9 @@ color: white;
 {
     text-align: center;
 }
-.mainContent, .quizMainContent
+
+.mainContent, 
+.quizMainContent
 {
     margin: 1rem auto;
     display:block;
@@ -177,7 +179,9 @@ color: white;
     font-size: large;
 }
 
-.mainContent #isTriangleBtn, .quizMainContent #submit
+.mainContent #isTriangleBtn, 
+.quizMainContent #submit,
+.mainContent #submit
 {
     display: block;
     margin: 1rem auto;
