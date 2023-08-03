@@ -17,10 +17,10 @@ function ValidateTriangle(sum, angle1, angle2, angle3)
     }
     return result;
 }
-function ValidateData()
+function ValidateData(angle1, angle2, angle3)
 {
     let result =true;
-    if(angles[0].value==="" || angles[1].value==="" || angles[2].value==="")
+    if(angle1<=0 || angle2<=0 || angle3<=0)
     {
         output.innerHTML = "Enter Valid Data"
         result =false;
@@ -30,11 +30,11 @@ function ValidateData()
 
 btnSubmit.addEventListener("click", function OnSubmitClicked()
 {
-    if (ValidateData())
+    const angle1 = Number(angles[0].value);
+    const angle2 = Number(angles[1].value);
+    const angle3 = Number(angles[2].value);
+    if (ValidateData(angle1, angle2, angle3))
     {
-        const angle1 = Number(angles[0].value);
-        const angle2 = Number(angles[1].value);
-        const angle3 = Number(angles[2].value);
         let sum = CalculateSum(angle1, angle2, angle3)
         if(ValidateTriangle(sum, angle1, angle2, angle3))
         {
